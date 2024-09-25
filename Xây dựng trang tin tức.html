@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Tin Tức</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trang Tin Tức</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="post">
+                <h2>Tiêu đề Bài báo 1</h2>
+                <h3>Ngày xuất bản: 21/09/2024</h3>
+                <p>Nội dung bài báo 1...</p>
+            </div>
+            <div class="post">
+                <h2>Tiêu đề Bài báo 2</h2>
+                <h3>Ngày xuất bản: 22/09/2024</h3>
+                <p>Nội dung bài báo 2...</p>
+            </div>
+            <div class="post">
+                <h2>Tiêu đề Bài báo 3</h2>
+                <h3>Ngày xuất bản: 22/09/2024</h3>
+                <p>Nội dung bài báo 3...</p>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <h2>Bài viết nổi bật</h2>
+            <ul>
+                <li>Bài viết nổi bật 1</li>
+                <li>Bài viết nổi bật 2</li>
+                <li>Bài viết nổi bật 3</li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>

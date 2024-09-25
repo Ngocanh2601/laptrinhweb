@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Trang của Ngọc Ánh</h1>
+    <h2>Xin chào!</h2>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .post {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .comments {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .comments blockquote {
+            margin: 10px 0;
+            padding-left: 10px;
+            border-left: 3px solid #ccc;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        .comment-form input, .comment-form textarea, .comment-form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Blog của Ánh</h1>
+    </div>
+
+    <div class="post">
+        <h2>Nguyễn Ngọc Ánh</h2>
+        <small>Ngày: 24/09/2024 | Tác giả: Nguyễn Ngọc Ánh</small>
+        <p>Ảnh xinh xinh</p>
+        
+        <div class="comments">
+            <h3>Bình luận</h3>
+            <blockquote>
+                <p><strong>Long:</strong> Đây là một bài viết rất hay!</p>
+            </blockquote>
+            <blockquote>
+                <p><strong>Hùng:</strong> Cảm ơn vì đã chia sẻ thông tin này.</p>
+            </blockquote>
+        </div>
+
+        <div class="comment-form">
+            <h3>Thêm Bình luận</h3>
+            <form action="submit-comment.php" method="post">
+                <input type="text" name="name" placeholder="Tên của bạn" required>
+                <textarea name="comment" placeholder="Nội dung bình luận" rows="5" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="post">
+        <h2>Văn Nam</h2>
+        <small>Ngày: 23/09/2024 | Tác giả: Văn Nam</small>
+        <p>Hết cái đăng</p>
+        
+        <div class="comments">
+            <h3>Bình luận</h3>
+            <blockquote>
+                <p><strong>Ánh:</strong> Bài viết rất hữu ích, cảm ơn bạn!</p>
+            </blockquote>
+            <p><strong>Duyên:</strong> Oaaaaa</p>
+        </blockquote>
+        </div>
+
+        <div class="comment-form">
+            <h3>Thêm Bình luận</h3>
+            <form action="submit-comment.php" method="post">
+                <input type="text" name="name" placeholder="Tên của bạn" required>
+                <textarea name="comment" placeholder="Nội dung bình luận" rows="5" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Giới Thiệu Sản Phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+        .product-description, .features, .pricing, .contact {
+            padding: 20px;
+            margin: 20px;
+        }
+        .features ul, .features ol {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea, .contact form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Chào mừng đến với Sản Phẩm của Chúng Tôi</h1>
+        <p>Giải pháp hoàn hảo cho nhu cầu của bạn</p>
+    </div>
+
+    <div class="product-description">
+        <h2>Mô tả Sản Phẩm</h2>
+        <figure>
+            <img src="product-image.jpg" alt="Hình ảnh sản phẩm" style="width:100%;">
+            <figcaption>Hình ảnh sản phẩm của chúng tôi</figcaption>
+        </figure>
+        <p>Sản phẩm của chúng tôi mang lại những lợi ích tuyệt vời và đáp ứng mọi nhu cầu của bạn.</p>
+    </div>
+
+    <div class="features">
+        <h2>Tính Năng Nổi Bật</h2>
+        <ul>
+            <li>Tính năng 1</li>
+            <li>Tính năng 2</li>
+            <li>Tính năng 3</li>
+        </ul>
+    </div>
+
+    <div class="pricing">
+        <h2>Bảng Giá</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Gói</th>
+                    <th>Giá</th>
+                    <th>Chi Tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gói Cơ Bản</td>
+                    <td>$10/tháng</td>
+                    <td>Chi tiết gói cơ bản</td>
+                </tr>
+                <tr>
+                    <td>Gói Nâng Cao</td>
+                    <td>$20/tháng</td>
+                    <td>Chi tiết gói nâng cao</td>
+                </tr>
+                <tr>
+                    <td>Gói Cao Cấp</td>
+                    <td>$30/tháng</td>
+                    <td>Chi tiết gói cao cấp</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="contact">
+        <h2>Liên Hệ</h2>
+        <form action="submit-form.php" method="post">
+            <input type="text" name="name" placeholder="Tên của bạn" required>
+            <input type="email" name="email" placeholder="Email của bạn" required>
+            <textarea name="message" placeholder="Tin nhắn của bạn" rows="5" required></textarea>
+            <button type="submit">Gửi</button>
+        </form>
+    </div>
+</body>
+</html>
